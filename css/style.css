@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(144, 228, 200);
+}
+
+.todo{
+    border: 4px solid black;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(173, 241, 138);
+    
+}
+
+button,input{
+    border: none;
+    padding: 1rem;
+    text-align: center;
+}
+
+button{
+    border-radius: 1rem;
+    background-color: white;
+}
+
+button:hover{
+    background-color: rgb(205, 201, 201)    
+}
+
+input{
+    border-radius: .5rem;
+}
+
+.heading{
+    padding: 1rem;
+}
+
+.lis{
+    padding: 1rem;
+}
