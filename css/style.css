@@ -30,8 +30,10 @@ button,input{
 }
 
 button{
-    border-radius: 1rem;
+    border-radius: .75rem;
+    margin: .5rem;
     background-color: white;
+    font-size: medium;
 }
 
 button:hover{
@@ -46,6 +48,24 @@ input{
     padding: 1rem;
 }
 
+
+#ebtn{
+    height: 3.49rem;
+}
+
 .lis{
     padding: 1rem;
+    font-size: x-large;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+  
+}
+
+#box{
+    height: 1rem;
+    width: 1rem;
+    
 }
