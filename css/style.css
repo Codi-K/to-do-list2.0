@@ -54,8 +54,13 @@ input{
 }
 
 .lis{
-    padding: 1rem;
+    padding: .5rem;
     font-size: x-large;
+    border-radius: 1rem;
+    background-color: rgb(182, 125, 235);
+    padding-bottom: 0;
+    padding-top: 0;
+
 }
 
 li{
@@ -68,4 +73,17 @@ li{
     height: 1rem;
     width: 1rem;
     
+}
+
+#input{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ptag{
+    margin-top: 1rem;
+}
+
+.jsptag{
+    text-decoration: line-through;
 }
